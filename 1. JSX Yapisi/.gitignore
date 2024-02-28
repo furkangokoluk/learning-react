@@ -12,10 +12,6 @@ dist
 dist-ssr
 *.local
 
-package-lock.json
-package.json
-README.md
-vite.config.js
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -26,3 +22,9 @@ vite.config.js
 *.njsproj
 *.sln
 *.sw?
+
+# Yüklememek istediğiniz dosyalar
+package-lock.json
+package.json
+README.md
+vite.config.js
