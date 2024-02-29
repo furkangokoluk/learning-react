@@ -8,7 +8,6 @@ function Container(props) {  // parent component : props yazan yere direkt {chil
             Ürün Bilgileri
             <hr />
             {props.children}
-
         </div>
     </div>;
 }
