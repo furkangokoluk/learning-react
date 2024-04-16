@@ -1,0 +1,67 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.todo-input {
+  width: 500px;
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+}
+
+.todoUpdate-input {
+  width: 380px;
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+}
+
+.todoCheck-input {
+  width: 380px;
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 1px solid rgb(255, 0, 0);
+  outline: none;
+}
+
+.todo-btn{
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color:darkorange;
+  cursor: pointer;
+}
+
+.todo-list{
+  width: 500px;
+  margin-top: 50px;
+}
+
+.todo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.todo-icon{
+  font-size: 25px;
+  margin-right: 7px;
+  cursor: pointer;
+}
